@@ -1,0 +1,78 @@
+/* src/components/ProductDetailPage.css */
+.product-detail-page {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .product-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Adjust as needed (contain, cover, etc.) */
+  }
+
+  .product-image {
+    width: 320px; /* Set the initial width of the image */
+    transition: width 0.3s ease-in-out; /* Add a smooth transition effect */
+  }
+
+  .product-image:hover {
+    width: 500px; /* Set the larger width on hover */
+  }
+
+  /* .product-details {
+    max-width: 600px;
+    margin-left: 20px;
+  } */
+  
+  
+  
+  .product-details {
+    max-width: 600px;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    margin-bottom: 20px;
+  }
+  
+  .specifications {
+    margin-top: 20px;
+  }
+  
+  .specifications h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .specifications ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .specifications li {
+    margin-bottom: 5px;
+  }
+  .add-to-cart {
+    background-color: #000000; /* Set the background color of the button */
+    color: #fff; /* Set the text color of the button */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Add margin between the specifications and the button */
+  }
+  
+  .add-to-cart:hover {
+    background-color: #9f9f9f; /* Adjust the background color on hover */
+  }
+  
+  /* Add more styles as needed */
+  

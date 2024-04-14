@@ -1,0 +1,23 @@
+/* src/styles/Home.css */
+
+.main {
+    background-color: #847add;
+    min-height: 100vh; /* Set a minimum height to cover the entire viewport */
+  }
+  
+  .banner-link {
+    /* If you want to style the link within the banner */
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* .hover-images-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  } */
+  
+  /* Add other styles as needed for your layout */
+  

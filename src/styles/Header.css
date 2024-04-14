@@ -1,0 +1,44 @@
+/* src/components/Header.css */
+header {
+    position: sticky;
+    top: 0;
+    background-color: #847add;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px; /* Set the width of your logo */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 10px; /* Add margin for spacing */
+  }
+  
+  .left-section p ul {
+    margin: 0;
+  }
+  
+  .right-section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .right-section li {
+    margin: 0 15px;
+  }
+  
+  .right-section a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  

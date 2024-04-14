@@ -1,0 +1,18 @@
+/* src/components/VideoPlayer.css */
+iframe {
+    width: 80%;
+    height: 600px;
+    /* height: 360px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+ 
+  button {
+    margin-top: 10px;
+  }
+
+  .embed-video{
+    display: flex;
+    justify-content: center;
+  }
+  

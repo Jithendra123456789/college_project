@@ -1,0 +1,28 @@
+/* ThankYouPage.css */
+
+.thank-you-container {
+    /* max-width: 600px; */
+   
+    margin: auto;
+    /* padding: 20px; */
+    text-align: center;
+  }
+  
+  .thank-you-heading {
+    color: #4caf50; /* Green color */
+  }
+  
+  .thank-you-message {
+    min-height: 100vh;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .order-details {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  /* Add more styles as needed */
+  

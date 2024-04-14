@@ -1,0 +1,19 @@
+/* src/styles/TextComponent.css */
+.text-container {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    margin: 100px 20px;
+  }
+  
+  .italic-text {
+    font-style: italic;
+    color: rgb(0, 0, 0); /* Set the text color as needed */
+    margin: 0; /* Remove default margin to avoid extra space */
+    font-style: unset;
+    font-family: monospace;
+    font-size: 60px;
+  }
+  
